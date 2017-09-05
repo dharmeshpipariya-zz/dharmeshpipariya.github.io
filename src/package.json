@@ -1,0 +1,18 @@
+{
+  "name": "dharmesh-site",
+  "version": "1.0.0",
+  "description": "Dharmesh Pipariya",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Dharmesh Pipariya",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
