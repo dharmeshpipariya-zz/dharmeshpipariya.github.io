@@ -1,3 +1,5 @@
+@import "fi-style";
+
 $primary: #3f51b5 !default;
 $secondary: #f36 !default;
 
@@ -140,7 +142,6 @@ body {
       position: relative;
       padding: .5rem 1rem;
       color: rgba(white, 0.87);
-      text-transform: uppercase;
     }
 
     .active > .nav-link {
@@ -209,7 +210,7 @@ body {
   color: #777;
   border-top: 1px solid rgba(white, 0.12);
 
-  .fa {
+  .fi {
     color: $secondary;
   }
 }
@@ -221,6 +222,7 @@ body {
   width: 56px;
   height: 56px;
   padding-top: 0;
+  line-height: 56px;
   color: #fff;
   font-size: 30px;
   border-radius: 50%;
@@ -446,7 +448,7 @@ body {
       font-size: 13px;
       color: white;
 
-      .fa {
+      .fi {
         width: 18px;
         height: 18px;
         margin-right: 8px;
@@ -545,7 +547,7 @@ body {
       vertical-align: top;
       line-height: 1;
 
-      .fa {
+      .fi {
         width: 40px;
         text-align: right;
       }
@@ -642,6 +644,7 @@ body {
     }
 
     .btn {
+      position: relative;
       width: 100%;
       height: 60px;
       padding: 0;
@@ -655,6 +658,62 @@ body {
       background: transparent;
       box-shadow: none;
       cursor: pointer;
+      overflow: hidden;
+
+      &#map-close {
+        display: none;
+      }
+
+      span {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        transition: all 200ms ease-in-out;
+        transform-style: preserve-3d;
+      }
+
+      &.fi-chevron-up,
+      &.fi-chevron-down {
+        &::before {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          font-size: 22px;
+          transition: all 200ms ease-in-out;
+          left: 0;
+        }
+
+        &:hover {
+          &::before {
+            top: 0;
+          }
+        }
+      }
+
+      &.fi-chevron-down {
+        &::before {
+          top: -100%;
+        }
+
+        &:hover {
+          span {
+            transform: translateY(300%);
+          }
+        }
+      }
+
+      &.fi-chevron-up {
+        &::before {
+          top: 100%;
+        }
+
+        &:hover {
+          span {
+            transform: translateY(-300%);
+          }
+        }
+      }
     }
   }
 
@@ -663,6 +722,25 @@ body {
     height: 400px;
     margin-top: -400px;
     overflow: hidden;
+    transition: all 600ms;
+  }
+
+  &.open {
+    .map-buttons {
+      .btn {
+        &#map-open {
+          display: none;
+        }
+
+        &#map-close {
+          display: block;
+        }
+      }
+    }
+
+    .map-container {
+      margin-top: 0;
+    }
   }
 }
 
@@ -703,6 +781,7 @@ body {
     bottom: 18px;
     width: 44px;
     height: 44px;
+    line-height: 42px;
     font-size: 24px;
   }
 }
@@ -716,7 +795,7 @@ body {
       margin: 30px auto;
 
       .contact-info-icon {
-        .fa {
+        .fi {
           text-align: center;
         }
       }

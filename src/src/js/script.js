@@ -75,4 +75,10 @@ $(document).ready(function () {
 
   // Wow
   new WOW().init();
+
+  // Map
+
+  $('.section-contact-map .map-buttons button').click(function (event) {
+    $('.section-contact-map').toggleClass('open');
+  });
 });

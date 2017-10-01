@@ -1,0 +1,334 @@
+$fi-font-path: "/fonts" !default;
+
+$fi-file-download: "\e900";
+$fi-email: "\e901";
+$fi-place: "\e902";
+$fi-html5: "\f13d";
+$fi-gulp: "\f136";
+$fi-js: "\f143";
+$fi-css3: "\f118";
+$fi-angular: "\f102";
+$fi-git: "\f12a";
+$fi-nodejs: "\f15a";
+$fi-npm: "\f15b";
+$fi-sass: "\f175";
+$fi-brush: "\f11f";
+$fi-business: "\f132";
+$fi-close: "\f137";
+$fi-code: "\f13a";
+$fi-coffee: "\f13b";
+$fi-drink: "\f157";
+$fi-edit: "\f158";
+$fi-favorite: "\f15f";
+$fi-color-lens: "\f1a4";
+$fi-puzzle-piece: "\f1b1";
+$fi-person: "\f207";
+$fi-bootstrap: "\f23d";
+$fi-color-fill: "\f240";
+$fi-star: "\f27d";
+$fi-desktop: "\f291";
+$fi-phone: "\f2be";
+$fi-chevron-down: "\f2fc";
+$fi-chevron-up: "\f2fd";
+$fi-view-quilt: "\f322";
+$fi-facebook: "\f343";
+$fi-github: "\f345";
+$fi-google: "\f34e";
+$fi-instagram: "\f34f";
+$fi-paypal: "\f357";
+$fi-share: "\f35b";
+$fi-twitter: "\f360";
+$fi-group: "\f3e9";
+$fi-linkedin: "\f3f8";
+$fi-pinterest: "\f3fc";
+$fi-skype: "\f3ff";
+$fi-sun-o: "\f185";
+$fi-archive: "\f187";
+
+@font-face {
+  font-family: 'fonticon';
+  src: url('#{$fi-font-path}/fonticon.eot?fvjz6i');
+  src: url('#{$fi-font-path}/fonticon.eot?fvjz6i#iefix') format('embedded-opentype'), url('#{$fi-font-path}/fonticon.ttf?fvjz6i') format('truetype'), url('#{$fi-font-path}/fonticon.woff?fvjz6i') format('woff'), url('#{$fi-font-path}/fonticon.svg?fvjz6i#fonticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fi {
+  display: inline-block;
+  speak: none;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &:before {
+    font-family: 'fonticon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+  }
+}
+
+.fi-file-download {
+  &:before {
+    content: $fi-file-download;
+  }
+}
+
+.fi-email {
+  &:before {
+    content: $fi-email;
+  }
+}
+
+.fi-place {
+  &:before {
+    content: $fi-place;
+  }
+}
+
+.fi-html5 {
+  &:before {
+    content: $fi-html5;
+  }
+}
+
+.fi-gulp {
+  &:before {
+    content: $fi-gulp;
+  }
+}
+
+.fi-js {
+  &:before {
+    content: $fi-js;
+  }
+}
+
+.fi-css3 {
+  &:before {
+    content: $fi-css3;
+  }
+}
+
+.fi-angular {
+  &:before {
+    content: $fi-angular;
+  }
+}
+
+.fi-git {
+  &:before {
+    content: $fi-git;
+  }
+}
+
+.fi-nodejs {
+  &:before {
+    content: $fi-nodejs;
+  }
+}
+
+.fi-npm {
+  &:before {
+    content: $fi-npm;
+  }
+}
+
+.fi-sass {
+  &:before {
+    content: $fi-sass;
+  }
+}
+
+.fi-brush {
+  &:before {
+    content: $fi-brush;
+  }
+}
+
+.fi-business {
+  &:before {
+    content: $fi-business;
+  }
+}
+
+.fi-close {
+  &:before {
+    content: $fi-close;
+  }
+}
+
+.fi-code {
+  &:before {
+    content: $fi-code;
+  }
+}
+
+.fi-coffee {
+  &:before {
+    content: $fi-coffee;
+  }
+}
+
+.fi-drink {
+  &:before {
+    content: $fi-drink;
+  }
+}
+
+.fi-edit {
+  &:before {
+    content: $fi-edit;
+  }
+}
+
+.fi-favorite {
+  &:before {
+    content: $fi-favorite;
+  }
+}
+
+.fi-color-lens {
+  &:before {
+    content: $fi-color-lens;
+  }
+}
+
+.fi-puzzle-piece {
+  &:before {
+    content: $fi-puzzle-piece;
+  }
+}
+
+.fi-person {
+  &:before {
+    content: $fi-person;
+  }
+}
+
+.fi-bootstrap {
+  &:before {
+    content: $fi-bootstrap;
+  }
+}
+
+.fi-color-fill {
+  &:before {
+    content: $fi-color-fill;
+  }
+}
+
+.fi-star {
+  &:before {
+    content: $fi-star;
+  }
+}
+
+.fi-desktop {
+  &:before {
+    content: $fi-desktop;
+  }
+}
+
+.fi-phone {
+  &:before {
+    content: $fi-phone;
+  }
+}
+
+.fi-chevron-down {
+  &:before {
+    content: $fi-chevron-down;
+  }
+}
+
+.fi-chevron-up {
+  &:before {
+    content: $fi-chevron-up;
+  }
+}
+
+.fi-view-quilt {
+  &:before {
+    content: $fi-view-quilt;
+  }
+}
+
+.fi-facebook {
+  &:before {
+    content: $fi-facebook;
+  }
+}
+
+.fi-github {
+  &:before {
+    content: $fi-github;
+  }
+}
+
+.fi-google {
+  &:before {
+    content: $fi-google;
+  }
+}
+
+.fi-instagram {
+  &:before {
+    content: $fi-instagram;
+  }
+}
+
+.fi-paypal {
+  &:before {
+    content: $fi-paypal;
+  }
+}
+
+.fi-share {
+  &:before {
+    content: $fi-share;
+  }
+}
+
+.fi-twitter {
+  &:before {
+    content: $fi-twitter;
+  }
+}
+
+.fi-group {
+  &:before {
+    content: $fi-group;
+  }
+}
+
+.fi-linkedin {
+  &:before {
+    content: $fi-linkedin;
+  }
+}
+
+.fi-pinterest {
+  &:before {
+    content: $fi-pinterest;
+  }
+}
+
+.fi-skype {
+  &:before {
+    content: $fi-skype;
+  }
+}
+
+.fi-sun-o {
+  &:before {
+    content: $fi-sun-o;
+  }
+}
+
+.fi-archive {
+  &:before {
+    content: $fi-archive;
+  }
+}
