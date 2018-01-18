@@ -6,7 +6,11 @@
   "scripts": {
     "start": "gulp"
   },
-  "author": "Dharmesh Pipariya",
+  "author": {
+    "name": "Dharmesh Pipariya",
+    "email": "pipariyadharmesh@gmail.com",
+    "url": "https://dharmeshpipariya.github.io/"
+  },
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
