@@ -2,7 +2,6 @@
   "name": "dharmesh-site",
   "version": "1.0.0",
   "description": "Dharmesh Pipariya",
-  "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
