@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Dharmesh Pipariya",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build",
+    "deploy": "gulp build && firebase deploy"
   },
   "author": {
     "name": "Dharmesh Pipariya",
