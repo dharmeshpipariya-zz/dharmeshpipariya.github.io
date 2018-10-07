@@ -135,7 +135,7 @@ body {
 .section {
   position: relative;
 
-  .section-title {
+  &-title {
     position: relative;
     margin-bottom: 50px;
     text-align: center;
@@ -167,9 +167,10 @@ body {
         top: -60px;
         left: 0;
         width: 100%;
-        font-size: 120px;
+        font-size: 6rem;
         font-weight: bold;
         color: rgba(black, 0.04);
+        overflow: hidden;
       }
     }
 
@@ -228,7 +229,7 @@ body {
   bottom: 28px;
   width: 56px;
   height: 56px;
-  padding-top: 0;
+  padding: 0 0 2px;
   line-height: 50px;
   color: white;
   border-radius: 50%;
@@ -263,7 +264,7 @@ body {
 
   .banner-container {
     display: table-cell;
-    padding: 120px 0 300px;
+    padding: 120px 0;
     vertical-align: middle;
     color: white;
     background: rgba($primary, 0.8);
