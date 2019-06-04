@@ -2,6 +2,8 @@
   "name": "dharmesh-site",
   "version": "1.0.0",
   "description": "Dharmesh Pipariya",
+  "private": true,
+  "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
@@ -14,15 +16,20 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cache-bust": "^1.1.0",
-    "gulp-clean": "^0.3.2",
-    "gulp-clean-css": "^3.7.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-cache-bust": "^1.4.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-minify": "^1.0.0",
-    "gulp-sass": "^3.1.0"
+    "gulp-connect": "^5.7.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-iconfont": "10.0.2",
+    "gulp-iconfont-css": "2.3.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0"
   }
 }

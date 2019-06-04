@@ -244,7 +244,7 @@ function initMap() {
       ]
     }
   ];
-  var myLatLng = { lat: 22.275614, lng: 73.1926938 };
+  var myLatLng = { lat: 22.261081, lng: 73.148748 };
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
     center: myLatLng,

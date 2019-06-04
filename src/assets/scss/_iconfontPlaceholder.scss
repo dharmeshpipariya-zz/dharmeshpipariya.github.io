@@ -1,0 +1,41 @@
+@font-face {
+  font-family: '<%= fontName %>';
+  src: url('<%= fontPath %><%= fontName %>.eot<%= cacheBusterQueryString %>');
+  src: url('<%= fontPath %><%= fontName %>.eot<%= cacheBusterQueryString %>#iefix') format('embedded-opentype'), url('<%= fontPath %><%= fontName %>.woff2<%= cacheBusterQueryString %>') format('woff2'), url('<%= fontPath %><%= fontName %>.woff<%= cacheBusterQueryString %>') format('woff'), url('<%= fontPath %><%= fontName %>.ttf<%= cacheBusterQueryString %>') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.<%= cssClass%> {
+  display: inline-block;
+  font-family: '<%= fontName %>';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga';
+  -ms-font-feature-settings: 'liga' 1;
+  font-feature-settings: 'liga';
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &::before {
+    font-family: '<%= fontName %>';
+  }
+}
+
+<% _.each(glyphs, function(glyph) { %>
+.<%= cssClass %>-<%= glyph.fileName %>::before {
+  content: '\<%= glyph.codePoint %>';
+}
+<% });%>
