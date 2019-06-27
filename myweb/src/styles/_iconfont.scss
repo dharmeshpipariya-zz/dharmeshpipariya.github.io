@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../assets/fonts/iconfont.eot?1559620020798');
+  src: url('../assets/fonts/iconfont.eot?1559620020798#iefix') format('embedded-opentype'), url('../assets/fonts/iconfont.woff2?1559620020798') format('woff2'), url('../assets/fonts/iconfont.woff?1559620020798') format('woff'), url('../assets/fonts/iconfont.ttf?1559620020798') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fi {
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  line-height: 1;
+  -webkit-font-feature-settings: 'liga';
+  -moz-font-feature-settings: 'liga';
+  -ms-font-feature-settings: 'liga' 1;
+  font-feature-settings: 'liga';
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &::before {
+    display: inline-block;
+    font-family: 'iconfont';
+  }
+}
+
+
+.fi-angular::before {
+  content: '\E001';
+}
+
+.fi-archive::before {
+  content: '\E002';
+}
+
+.fi-bootstrap::before {
+  content: '\E003';
+}
+
+.fi-brush::before {
+  content: '\E004';
+}
+
+.fi-business::before {
+  content: '\E005';
+}
+
+.fi-chevron-down::before {
+  content: '\E006';
+}
+
+.fi-chevron-up::before {
+  content: '\E007';
+}
+
+.fi-close::before {
+  content: '\E008';
+}
+
+.fi-code::before {
+  content: '\E009';
+}
+
+.fi-coffee::before {
+  content: '\E00A';
+}
+
+.fi-color-fill::before {
+  content: '\E00B';
+}
+
+.fi-color-lens::before {
+  content: '\E00C';
+}
+
+.fi-css3::before {
+  content: '\E00D';
+}
+
+.fi-desktop::before {
+  content: '\E00E';
+}
+
+.fi-drink::before {
+  content: '\E00F';
+}
+
+.fi-edit::before {
+  content: '\E010';
+}
+
+.fi-email::before {
+  content: '\E011';
+}
+
+.fi-facebook::before {
+  content: '\E012';
+}
+
+.fi-favorite::before {
+  content: '\E013';
+}
+
+.fi-file-download::before {
+  content: '\E014';
+}
+
+.fi-git::before {
+  content: '\E015';
+}
+
+.fi-github::before {
+  content: '\E016';
+}
+
+.fi-google::before {
+  content: '\E017';
+}
+
+.fi-group::before {
+  content: '\E018';
+}
+
+.fi-gulp::before {
+  content: '\E019';
+}
+
+.fi-html5::before {
+  content: '\E01A';
+}
+
+.fi-instagram::before {
+  content: '\E01B';
+}
+
+.fi-js::before {
+  content: '\E01C';
+}
+
+.fi-linkedin::before {
+  content: '\E01D';
+}
+
+.fi-nodejs::before {
+  content: '\E01E';
+}
+
+.fi-npm::before {
+  content: '\E01F';
+}
+
+.fi-paypal::before {
+  content: '\E020';
+}
+
+.fi-person::before {
+  content: '\E021';
+}
+
+.fi-phone::before {
+  content: '\E022';
+}
+
+.fi-pinterest::before {
+  content: '\E023';
+}
+
+.fi-place::before {
+  content: '\E024';
+}
+
+.fi-puzzle-piece::before {
+  content: '\E025';
+}
+
+.fi-sass::before {
+  content: '\E026';
+}
+
+.fi-share::before {
+  content: '\E027';
+}
+
+.fi-skype::before {
+  content: '\E028';
+}
+
+.fi-star::before {
+  content: '\E029';
+}
+
+.fi-sun-o::before {
+  content: '\E02A';
+}
+
+.fi-twitter::before {
+  content: '\E02B';
+}
+
+.fi-view-quilt::before {
+  content: '\E02C';
+}
