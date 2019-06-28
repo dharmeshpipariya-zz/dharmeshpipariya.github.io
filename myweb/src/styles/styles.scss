@@ -26,6 +26,14 @@ $secondary: lighten($primary, 20) !default;
 body {
   font-family: 'Nunito', sans-serif;
   background-color: #f5f5f5;
+  transition: margin .5s cubic-bezier(.785,.135,.15,.86);
+
+  @media (max-width: 767px) {
+    &.navbar-expanded {
+      margin-left: -280px;
+      margin-right: 280px;
+    }
+  }
 }
 
 .preloader {
