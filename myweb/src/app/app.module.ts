@@ -11,6 +11,8 @@ import { NavBarModule } from './shared/navbar/navbar';
 import { ProjectsModule } from './pages/projects/projects';
 import { BlogModule } from './pages/blog/blog';
 import { TyperModule } from './shared/typer/typer';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { TyperModule } from './shared/typer/typer';
     NavBarModule,
     ProjectsModule,
     BlogModule,
-    TyperModule
+    TyperModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     ComponentPageTitle

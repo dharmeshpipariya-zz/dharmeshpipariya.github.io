@@ -4,8 +4,7 @@ import { TyperModule } from '../../shared/typer/typer';
 
 @Component({
   selector: 'homepage',
-  templateUrl: './homepage.html',
-  styleUrls: ['./homepage.scss']
+  templateUrl: './homepage.html'
 })
 export class Homepage implements OnInit {
 
